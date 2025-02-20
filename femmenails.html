@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Booking</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Work Sans', sans-serif;
+            background-color: #ebd9c8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+        }
+
+        h1 {
+            color: #000;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            text-align: justify;
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 30px;
+            margin: 10px auto;
+            width: 80%;
+            font-size: 16px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .instagram-btn {
+            background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+        }
+
+        .location-btn {
+            background: linear-gradient(45deg, #00C6FF, #0072FF);
+        }
+
+        .button:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your booking has been submitted. Thank You!</h1>
+        <p>To confirm your booking, kindly send a screenshot of the confirmation email, downpayment receipt, and your nail design inspo picture to our Instagram page through DM.</p>
+        <a href="https://www.instagram.com/femmenailscebu.ph/" target="_blank" class="button instagram-btn">Instagram</a>
+        <a href="https://maps.app.goo.gl/Q6tteiZVzz8g22sC9" target="_blank" class="button location-btn">Location</a>
+    </div>
+</body>
+</html>
